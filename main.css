@@ -1,0 +1,80 @@
+/*public style */
+*{
+     padding : 0 ; 
+     margin : 0 ;
+     box-sizing : border-box ;
+}
+
+
+a{
+ text-decoration : none ; 
+}
+
+
+ul {
+ list-style-type : none; 
+}
+/*public style*/
+.header{
+ display : flex ; 
+ align-items: center;
+ justify-content: space-evenly;
+ padding : 25px 0px ; 
+ background-color: white; 
+ margin : 0 15px ; 
+ gap : 70px ; 
+ position : fixed; 
+ width : 100%;
+}
+.header ul {   /*works only on direct children , doesn't work as we want on .list alone*/
+ display : flex; 
+ gap : 40px;
+ margin : 0 ; 
+ padding : 0;
+ align-items: center;
+ 
+}
+.header ul li a{
+     color : black ; 
+}
+
+.list{
+ display: flex; 
+padding : 0 ; 
+align-items: center;
+margin-left :80px ; 
+margin-right : 200px;
+
+}
+.search-form{
+ display : flex; 
+ gap: 0 ; 
+}
+
+.pink{
+     color : #FB2E86;
+}
+.pinkBtn{
+     background-color : #FB2E86;
+     border : none ; 
+}
+
+.container{
+     margin : 0 60px;
+     width : 60%;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;       
+  justify-content: space-between; 
+}
+.header input{
+    border : 0 ; 
+   
+}
+
+.header form{
+     border : 3px solid #EBF0FF;
+     display:flex;
+}
